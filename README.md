@@ -1,6 +1,3 @@
-# EC500 C1
-### Building Software
-### Boston University Spring 2018
-
-Anthony Pasquariello
+# EC500C1 : Building Software
+### Anthony Pasquariello
 
