@@ -1,4 +1,4 @@
-# Twitter Feed Image Sentiment Custom API
+# Twitter Feed Image Sentiment API
 
 ### Dependencies (Python APIs)
 1. tweepy
