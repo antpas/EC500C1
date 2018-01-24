@@ -1,5 +1,6 @@
 # EC500C1 : Building Software
 ### Anthony Pasquariello
+Boston University Spring 2018
 
 ## Projects
 1. Twitter Image Analysis Custom API
