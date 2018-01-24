@@ -48,6 +48,3 @@ def downloadImages(twitter_name, tweet_count):
     for media_file in media_files:
         wget.download(media_file, out = 'TwitterImages/')
         count = count + 1
-
-
-downloadImages('makenziebrady', 30)
