@@ -1,7 +1,7 @@
-import ffmpy
+import cv2
+import os
 
-ff = ffmpy.FFmpeg(
-    inputs={'input.mp4': None},
-    outputs={'output.avi': None}
-)
-ff.run()
+def save():
+    os.system('ffmpeg -r .5 -i TwitterImages\image%d.jpg -vcodec mpeg4 -y video.mp4')
+
+save()
