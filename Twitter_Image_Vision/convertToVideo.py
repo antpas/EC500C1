@@ -2,6 +2,5 @@ import cv2
 import os
 
 def save():
-    os.system('ffmpeg -r .5 -i TwitterImages\image%d.jpg -vcodec mpeg4 -y video.mp4')
-
+    os.system('ffmpeg -framerate 1/3 -i TwitterImages\image%d.jpg video.avi')
 save()
