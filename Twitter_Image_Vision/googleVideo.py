@@ -7,6 +7,9 @@ os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="Path\to\json\key\apikey.json"
 def get_segment_labels():
 
     path = os.path.join(os.path.dirname(__file__), 'video.avi')
+    if not os.path.exists(path):
+        raise ValueError('No images available')
+
     video_client = videointelligence.VideoIntelligenceServiceClient()
     features = [videointelligence.enums.Feature.LABEL_DETECTION]
 
@@ -25,6 +28,9 @@ def get_segment_labels():
 
 def get_shot_labels():
     path = os.path.join(os.path.dirname(__file__), 'video.avi')
+    if not os.path.exists(path):
+        raise ValueError('No images available')
+
     video_client = videointelligence.VideoIntelligenceServiceClient()
     features = [videointelligence.enums.Feature.LABEL_DETECTION]
 
@@ -44,6 +50,9 @@ def get_shot_labels():
 def get_frame_labels():
 
     path = os.path.join(os.path.dirname(__file__), 'video.avi')
+    if not os.path.exists(path):
+        raise ValueError('No images available')
+
     video_client = videointelligence.VideoIntelligenceServiceClient()
     features = [videointelligence.enums.Feature.LABEL_DETECTION]
 
@@ -58,3 +67,5 @@ def get_frame_labels():
     frame_labels = result.annotation_results[0].frame_label_annotations
 
     return frame_labels
+
+
