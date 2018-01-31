@@ -1,3 +1,4 @@
+#Twitter API Credentials
 consumer_key = 'consumerkey'
 consumer_secret = 'consumersecret'
 access_token = 'accesstoken'
