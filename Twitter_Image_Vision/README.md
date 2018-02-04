@@ -189,9 +189,19 @@ annotation_results {
     }
   }
 }
-
-
 ```
+
+This data can easily be used by accessing the JSON object.
+
+### Example
+```
+import tweetVision
+
+out = tweetVision.segment_label('BU_Tweets', 100)
+print(out['segmentLabelAnnotations'][0]['entity']['description'])
+print(out['segmentLabelAnnotations'][1]['entity']['description'])
+```
+
 ## Authors
 
 * **Anthony Pasquariello** - For EC500: Building Software, Boston University 2018
