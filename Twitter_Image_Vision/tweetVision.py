@@ -32,4 +32,3 @@ def frame_label(twitter_username, tweet_count):
     output = googleVideo.get_frame_labels()
     cleanup()
     return output
-
