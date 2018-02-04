@@ -19,11 +19,10 @@ def get_segment_labels():
     operation = video_client.annotate_video(features=features, input_content=input_content)
 
     result = operation.result(timeout=90)
+    serial = MessageToJson(result)
+    output = json.loads(serial)
 
-    # Process video/segment level label annotations
-    segment_labels = result.annotation_results[0].segment_label_annotations
-
-    return segment_labels
+    return output['annotationResults'][0]
 
 
 def get_shot_labels():
@@ -41,10 +40,7 @@ def get_shot_labels():
 
     result = operation.result(timeout=90)
 
-    # Process shot level label annotations
-    shot_labels = result.annotation_results[0].shot_label_annotations
-
-    return shot_labels
+    return result
 
 
 def get_frame_labels():
@@ -63,9 +59,5 @@ def get_frame_labels():
 
     result = operation.result(timeout=90)
 
-    # Process frame level label annotations
-    frame_labels = result.annotation_results[0].frame_label_annotations
-
-    return frame_labels
-
+    return result
 
