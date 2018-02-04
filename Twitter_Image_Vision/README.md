@@ -74,6 +74,121 @@ out = tweetVision.segment_label('BU_Tweets', 100)
 ### Data Output Format
 The output format is JSON:
 ```
+annotation_results {
+  segment_label_annotations {
+    entity {
+      entity_id: "/m/06_dn"
+      description: "snow"
+      language_code: "en-US"
+    }
+    category_entities {
+      entity_id: "/m/0866r"
+      description: "weather"
+      language_code: "en-US"
+    }
+    segments {
+      segment {
+        start_time_offset {
+        }
+        end_time_offset {
+          seconds: 9
+        }
+      }
+      confidence: 0.428644835949
+    }
+  }
+  segment_label_annotations {
+    entity {
+      entity_id: "/m/086mh"
+      description: "winter"
+      language_code: "en-US"
+    }
+    category_entities {
+      entity_id: "/m/0754v"
+      description: "season"
+      language_code: "en-US"
+    }
+    segments {
+      segment {
+        start_time_offset {
+        }
+        end_time_offset {
+          seconds: 9
+        }
+      }
+      confidence: 0.572898983955
+    }
+  }
+  shot_label_annotations {
+    entity {
+      entity_id: "/m/07j7r"
+      description: "tree"
+      language_code: "en-US"
+    }
+    category_entities {
+      entity_id: "/m/05s2s"
+      description: "plant"
+      language_code: "en-US"
+    }
+    segments {
+      segment {
+        start_time_offset {
+          seconds: 3
+        }
+        end_time_offset {
+          seconds: 9
+        }
+      }
+      confidence: 0.419648438692
+    }
+  }
+  shot_label_annotations {
+    entity {
+      entity_id: "/m/06_dn"
+      description: "snow"
+      language_code: "en-US"
+    }
+    category_entities {
+      entity_id: "/m/0866r"
+      description: "weather"
+      language_code: "en-US"
+    }
+    segments {
+      segment {
+        start_time_offset {
+          seconds: 3
+        }
+        end_time_offset {
+          seconds: 9
+        }
+      }
+      confidence: 0.73469388485
+    }
+  }
+  shot_label_annotations {
+    entity {
+      entity_id: "/m/086mh"
+      description: "winter"
+      language_code: "en-US"
+    }
+    category_entities {
+      entity_id: "/m/0754v"
+      description: "season"
+      language_code: "en-US"
+    }
+    segments {
+      segment {
+        start_time_offset {
+          seconds: 3
+        }
+        end_time_offset {
+          seconds: 9
+        }
+      }
+      confidence: 0.787180364132
+    }
+  }
+}
 
 
 ```
