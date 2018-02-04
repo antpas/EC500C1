@@ -52,7 +52,31 @@ access_token = 'key here'
 access_secret = 'key here'
 ```
 
+## Usage Documentation
 
+### Main wrapper file
+The main file that the developer interacts with is tweetVision.py
+
+### Example how to use main wrapper
+- See test.py in this repo
+
+### General Use Example
+Import tweetVision to file you want to use it in
+```
+import tweetVision
+```
+
+In that file you can use it like such:
+```
+out = tweetVision.segment_label('BU_Tweets', 100)
+```
+
+### Data Output Format
+The output format is JSON:
+```
+
+
+```
 ## Authors
 
 * **Anthony Pasquariello** - For EC500: Building Software, Boston University 2018
@@ -60,4 +84,4 @@ access_secret = 'key here'
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/antpas/EC500C1/blob/master/LICENSE) file for details
