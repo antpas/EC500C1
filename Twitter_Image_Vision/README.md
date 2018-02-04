@@ -13,7 +13,7 @@ Git clone this repository to download all of the files to your local machine.
 ### Installing Prereqs
 
 Install Python
-* Follow instructions on: [a link](https://www.python.org/downloads)
+- Follow instructions on: [Python Download](https://www.python.org/downloads)
 
 Install Tweepy
 ```
@@ -21,24 +21,25 @@ pip install tweepy
 ```
 
 Install FFmpeg
-* Windows:
-** Donwload FFmpeg here: [a link](https://www.ffmpeg.org/download.html#build-windows)
-** Put the contents of the download in a folder called ffmpeg at root location C:\
-* OSX
-** Donwload FFmpeg here: [a link](https://www.ffmpeg.org/download.html#build-mac)
-** Put the contents of the download in a folder called ffmpeg at root location C:\
-* Other tutorials to download ffmpeg
-** [a link] (http://www.renevolution.com/ffmpeg/2013/03/16/how-to-install-ffmpeg-on-mac-os-x.html)
+- Windows:
+  - Donwload FFmpeg here: [FFmpeg Download](https://www.ffmpeg.org/download.html#build-windows)
+  - Put the contents of the download in a folder called ffmpeg at root location C:\
+- OSX
+  - Donwload FFmpeg here: [FFmpeg Download](https://www.ffmpeg.org/download.html#build-mac)
+  - Put the contents of the download in a folder called ffmpeg at root location C:\
+- Other tutorials to download ffmpeg
+  - [FFmpeg Tutorial] (http://www.renevolution.com/ffmpeg/2013/03/16/how-to-install-ffmpeg-on-mac-os-x.html)
 
 ### API Setup
-* Create a Google Cloud Intelligence API key (as a service account). 
-** Download the json key file, name it apikey.json
-** Put it in the root project folder
-* Create twitter API credentials
-** Copy the keys (four of them) into the passwords.py file
+- Create a Google Cloud Intelligence API key (as a service account). 
+  - Download the json key file, name it apikey.json
+  - Put it in the root project folder
+- Create twitter API credentials
+  - Copy the keys (four of them) into the passwords.py file
 
 ## Setup Files in this repo 
-* Copy all files from this repo to the project folder you want to use it in
+- Copy all files from this repo to the project folder you want to use it in
+
 googleVideo.py
 ```
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="<Path to project>\\apikey.json"
