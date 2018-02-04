@@ -13,9 +13,7 @@ Git clone this repository to download all of the files to your local machine.
 ### Installing Prereqs
 
 Install Python
-```
-Follow instructions on: [a link](https://www.python.org/downloads)
-```
+* Follow instructions on: [a link](https://www.python.org/downloads)
 
 Install Tweepy
 ```
@@ -23,61 +21,42 @@ pip install tweepy
 ```
 
 Install FFmpeg
+* Windows:
+** Donwload FFmpeg here: [a link](https://www.ffmpeg.org/download.html#build-windows)
+** Put the contents of the download in a folder called ffmpeg at root location C:\
+* OSX
+** Donwload FFmpeg here: [a link](https://www.ffmpeg.org/download.html#build-mac)
+** Put the contents of the download in a folder called ffmpeg at root location C:\
+* Other tutorials to download ffmpeg
+** [a link] (http://www.renevolution.com/ffmpeg/2013/03/16/how-to-install-ffmpeg-on-mac-os-x.html)
+
+### API Setup
+* Create a Google Cloud Intelligence API key (as a service account). 
+** Download the json key file, name it apikey.json
+** Put it in the root project folder
+* Create twitter API credentials
+** Copy the keys (four of them) into the passwords.py file
+
+## Setup Files in this repo 
+* Copy all files from this repo to the project folder you want to use it in
+googleVideo.py
 ```
-Windows: Donwload FFmpeg here: [a link]()
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="<Path to project>\\apikey.json"
+```
+passwords.py
+```
+consumer_key = 'Put key here'
+consumer_secret = 'key here'
+access_token = 'key here'
+access_secret = 'key here'
 ```
 
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Anthony Pasquariello** - For EC500: Building Software, Boston University 2018
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
