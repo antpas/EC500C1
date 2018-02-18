@@ -1,4 +1,4 @@
-Program to Use @danaszapiro 's API
+Program to Use @danaszapiro's API
 -----------------------------------
 Anthony Pasquariello
 
@@ -12,7 +12,7 @@ app.py
 Code Review
 ------------
 
-Code review completed. All review issues are under the 'Issues' tab in this repo. Found 7 issues. Some small and some a bit larger. All in all a great API though!
+Code review completed. All review issues are under the 'Issues' tab in @danaszapiro's repo. Found 7 issues. Some small and some a bit larger. All in all a great API though!
  - Error handling of FFmpeg within python.
  - Manually have to create output folder
  - Running proram multiple times leaves behind old images
