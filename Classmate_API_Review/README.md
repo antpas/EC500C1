@@ -6,7 +6,7 @@ app.py
  - This python application uses the API 3 times
  - Once to retrieve tweets from BU_Tweets. This works well!
  - Second time to check how it handles error handling. Works well!
- - Third to try and break it. 
+ - Third to try and break it. Needs improvement.
  
  
 Code Review
