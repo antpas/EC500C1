@@ -1,6 +1,7 @@
 Program to Use @danaszapiro's API
 -----------------------------------
 Anthony Pasquariello
+** This repo is also on @danaszapiro profile. **
 
 app.py
  - This python application uses the API 3 times
