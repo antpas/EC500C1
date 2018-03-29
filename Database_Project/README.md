@@ -1,5 +1,5 @@
-# Twitter Image Sentiment Analysis API
-This is a self contained library that helps developers more easily pull images from Twitter and run them through Google Vision. This allows for images to be searched for themes, subjects, and other identifiers.
+# Twitter Analysis Database Project
+This extends Project 1, to add database functionality. I use MongoDB in order to save data from the user. This allows for analytics to be run on the dataset. 
 
 ## Getting Started
 Git clone this repository to download all of the files to your local machine.
