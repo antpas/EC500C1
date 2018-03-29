@@ -10,7 +10,7 @@ Git clone this repository to download all of the files to your local machine.
 1. pymongo library
 
 
-### Example
+### Database Schema
 ```
 {
     'twitter_handle' : twitterhandle,
