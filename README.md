@@ -5,5 +5,5 @@ Boston University Spring 2018
 ## Projects
 1. Twitter Image Analysis Custom API
 1. Review classmate's API and create local website for it
-1.
+1. Database Project using MongoDB
 
