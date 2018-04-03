@@ -9,8 +9,13 @@ Git clone this repository to download all of the files to your local machine.
 1. MongoDB
 1. pymongo library
 
+## Overview
+The project was split into two major components.
+1. Develop a database schema and save image analysis of 20 different Twitter users per day (for three days)
+2. Develop an analysis program to understand and gain meaningful data out of this project
 
-### Database Schema
+### 1. Database Schema
+The code that runs image analysis script on 20 Twitter users can be found in script.py file. Here's the DB schema and data gathered.
 ```
 {
     'twitter_handle' : twitterhandle,
@@ -25,6 +30,10 @@ Git clone this repository to download all of the files to your local machine.
     'createdon' : datetime.datetime.now()
 }
 ```
+
+### 2. Analysis
+The code that queries the database and analyses the data can be found in analysis.py file.  
+
 
 ## Authors
 
