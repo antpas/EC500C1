@@ -32,8 +32,10 @@ The code that runs image analysis script on 20 Twitter users can be found in scr
 ```
 
 ### 2. Analysis
-The code that queries the database and analyses the data can be found in analysis.py file.  
+The code that queries the database and analyses the data can be found in analysis.py file. Two queries are run here. One allows the user to search for a word and see which users have that keyword assosiated with their Tweets. The second runs a query on the database to find the most common keywords found throughout the 20 Twitter handles analyzed. Then it returns the frequency of the most popular keywords and which profiles are assosiated with that keyword. 
 
+
+## Screenshots of Output
 
 ## Authors
 
