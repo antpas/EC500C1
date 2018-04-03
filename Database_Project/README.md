@@ -36,6 +36,11 @@ The code that queries the database and analyses the data can be found in analysi
 
 
 ## Screenshots of Output
+### Keyword Search: 
+![alt text](https://github.com/antpas/EC500C1/blob/master/Database_Project/Data/searchword.png)
+
+### Most Frequent Keywords
+![alt text](https://github.com/antpas/EC500C1/blob/master/Database_Project/Data/mostcommon.png)
 
 ## Authors
 
