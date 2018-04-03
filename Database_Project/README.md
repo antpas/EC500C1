@@ -42,6 +42,8 @@ The code that queries the database and analyses the data can be found in analysi
 ### Most Frequent Keywords
 ![alt text](https://github.com/antpas/EC500C1/blob/master/Database_Project/Data/mostcommon.png)
 
+You can also find the json dump of the database after Day 1 of running the script in the /Data folder on this repo.
+
 ## Authors
 
 * **Anthony Pasquariello** - For EC500: Building Software, Boston University 2018
