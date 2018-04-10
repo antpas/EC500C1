@@ -15,10 +15,13 @@ The project was split into two major components.
 2. Develop an analysis program to understand and gain meaningful data out of this project
 3. Understand the differences between relational DB (this project) and non-relational DB (MongoDB)
 
-### 1. Database Schema
+## Database Schema
 Two Tables:
 1. tweets
 2. keywords
+
+As you can see from images below, the tweets table has three columns: tweet_id, twitter_handle, num_images.
+The keywords table inherits the tweet_id from the corresponding twitter account associated with those keywords. It also has the keyword_id, and keyword.
 
 ### Tweets Table
 ![alt text](https://github.com/antpas/EC500C1/blob/master/Database_Project_SQL/Data/tweetsTable.png)
